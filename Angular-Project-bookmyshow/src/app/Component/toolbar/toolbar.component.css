@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,300&family=Roboto+Condensed&family=Teko&display=swap');
+
+
+.toolbar{
+ width: 1000px;
+ height: 60px;
+ display: inline;
+}
+.name {
+    display: inline;
+    color: white;
+    font-size: 15px;
+    font-family: Poppins ;
+    
+    
+}
+.searchbutton, .name, .searchbar, .{
+    display: inline-block;
+  
+   
+}
+  
+.searchbutton, .name, .searchbar, .sign-in, .side-nav{
+    display: inline-block;
+  
+    background: #ccc;
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(80, 5, 64); ;
+      
+}
+.searchbar input[type=text] {
+          display: inline-block;
+        border: 1px solid rgb(10, 10, 10); 
+                top: 355px;
+                left: 575px;
+                height: 40px;
+                width: 550px; 
+                border-radius: 00.3pc;   
+                margin-right: 360px; 
+                margin-left: 0%; 
+                padding-left: 0%;
+                left: 0;
+      }
+      .sign-in{
+        display: inline-block;
+          color: white;
+          background-color: red;
+          border-radius: 00.3pc;
+          padding: 6px;
+          font-size: medium;
+          margin: 0%;
+          
+      }
+
+.search{
+    border-radius: 0.3pc;
+    display: inline-block;
+
+
+
+}
+
+.side-nav{
+    display: inline-block ;
+    position: absolute;
+}
+.searchbutton, .searchbar {
+    
+        content: "";
+        clear: both;
+       
+}
